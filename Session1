@@ -24,7 +24,7 @@ LAB 1
 	select user, host, authentication_string, plugin from mysql.user;
 
 8. MySQL server version
-	mysql -V
+	select version();
 
 9. Bitwise XOR, AND, OR
 	select 1&2 as ans, 1|2 as or, 1^2 as xor;
