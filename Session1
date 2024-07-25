@@ -18,7 +18,7 @@ LAB 1
 	SELECT CURRENT_TIMESTAMP;
 
 6. Default database name
-	use mysql; show database();
+	use mysql; show databases();
 
 7. MySQL username and hostname
 	select user, host, authentication_string, plugin from mysql.user;
