@@ -27,10 +27,10 @@ LAB 1
 	select version();
 
 9. Bitwise XOR, AND, OR
-	select 1&2 as ans, 1|2 as or, 1^2 as xor;
+	select 1&2 as and, 1|2 as or, 1^2 as xor;
 
 10. Difference between two dates
-	SELECT DATEDIFF("2017-06-25", "2017-06-15");
+	SELECT DATEDIFF("2019-06-25", "2019-06-15");
 
 11. Add 2:50 to the current time
 	SELECT ADDTIME("12:00:00", "02:50:00") as updated;
@@ -39,10 +39,10 @@ LAB 1
 	select floor(9.8) as f, ceil(9.8) s c;
 
 13. Operations on regex
-	select "Akhshay" REGEXP "A*"; select "Akhshay" REGEXP "B+";
+	select "Arshad" REGEXP "A*"; select "Arshad" REGEXP "B+";
 
 14. Compare 2 strings
-	Select STRCMP('Mahesh', 'Mahesh') As 'Cmp_Value';
+	Select STRCMP('Ahmed', 'Ahmed') As 'Cmp_Value';
 
 15. Simulate if-else statement for marks and grades
 	SELECT IF(500>100, "YES", "NO");
